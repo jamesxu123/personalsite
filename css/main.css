@@ -1,0 +1,42 @@
+.hero-left {
+	height: 100vh;
+	background: rgb(20,29,38)
+}
+.subtitle {
+	position: absolute;
+	transform: translate(+3vw,+70vh);
+}
+.title-text {
+	font-size: 7rem;
+	color: rgb(161, 127, 26);
+    font-family: 'Markazi Text', serif;
+}
+.sub-text {
+	font-size: 2em;
+	color: rgb(200,200,200);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.work-title {
+	align-items: center;
+}
+.title-text-alt {
+	text-align: center;
+	font-size: 7rem;
+	color: rgb(255,255,255);
+	font-family: 'Markazi Text', serif;
+}
+.hero-right {
+	height: 100vh;
+	background: rgb(161, 127, 26);
+}
+.feature-left {
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.feature-text {
+	font-family: 'Oxygen Mono';
+	color: #ffffff;
+	font-size: 20em;
+}
