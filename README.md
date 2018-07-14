@@ -1,2 +1,2 @@
 # personalsite
-New, self-coded personal website
+New, (mostly) self-coded personal website
