@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet"> 
-	<script src="js/rellax.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -31,25 +31,56 @@
                     <br>
                     <div class="subtitle">
                         <p>Hey, I'm James Xu, a high school student from Windsor, ON.
-                        <br>I'm on the Workshops team for MasseyHacks V. I'm also a developer and instructor at CodeReach.</p>
+                        <br>
+                        Programming is my biggest hobby, and with good reason! It is a place where I can challenge myself and grow!
+                        <br>
+                        I have experience in Python and web development using front-end and back-end frameworks such as Bootstrap and Vue.</p>
+
                     </div>
+<!--                     <ul class="icons">
+                        <li><a href="https://github.com/jamesxu123"><i class="fab fa-github"></i></a></li>
+                        <li><a href="mailto:james@jamesxu.ca"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="https://www.instagram.com/jamesxu.02/"><i class="fab fa-instagram"></i></a></li>
+                    </ul> -->
                     <div class="hidden">
-                        <button type="button" class="btn btn-primary btn-lg" style="margin: 0 auto;">Large button</button>
+                        <button type="button" class="btn btn-primary btn-lg" style="margin:0 auto;">Learn More</button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-7 hero-right">
-                <div class="item1">
+                <div class="item" id="item1">
                     <h2 class="feature-text" style="color: white;">MasseyHacks V</h2>
+                    <a href="https://masseyhacks.ca">
+                        <div class="img-hover" data-aos="fade-up">
+                            <img class="img-fluid" src="images/masseyhacks.png">
+                        </div>
+                    </a>
+                    <p>Web development and UI/UX design work for the MasseyHacks V static site and registration system. Also responsible for attracting mentors and workshop hosts.</p>
                 </div>
-                <div class="item2">
+                <div class="item" id="item2">
                     <h2 class="feature-text" style="color: white;">CodeReach</h2>
+                    <a href="https://codereach.ca">
+                        <div class="img-hover" data-aos="fade-up">
+                            <img class="img-fluid" src="images/codereach.png">
+                        </div>
+                    </a>
+                    <p>Management of organization Linux servers and other self-hosted software. I'm also a teacher responsible for instruction and development of a Python-based "Intro to coding" curriculum.</p>
                 </div>
-                <div class="item3">
-                    <h2 class="feature-text" style="color: white;">EngineZ</h2>
+                <div class="item" id="item3">
+                    <h2 class="feature-text" style="color: white;">ICS3U FINAL</h2>
+                    <a href="https://github.com/davesoftllc/enginez">
+                        <div class="img-hover" data-aos="fade-up">
+                            <img class="img-fluid" src="images/enginez.png">
+                        </div>
+                    </a>
+                    <p>My ICS3U FSE. A 2D battle-royale genre shooter made using Pygame and a MySQL database. Networking was done through sockets. This was done over the course of two months with a partner; this project received 100%.</p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
