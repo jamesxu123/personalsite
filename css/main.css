@@ -8,6 +8,10 @@
 	src: url(../fonts/avenir-next-bold.ttf);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .hero-left {
 	position: fixed;
 	top: 0px;
@@ -61,6 +65,7 @@ a {
 	color: black;
 }
 .feature-left p {
+	text-align: left;
 	color: black;
 	font-family: 'Avenir';
 	font-weight: 300;
@@ -122,9 +127,9 @@ a {
 	}
 	.feature-left {
 		align-items: center;
-		text-align: center;
 		position: relative;
-		top: 0px
+		top: 0px;
+		text-align: center;
 		transform: translateY(0px);
 		left: 0%;
 	}
