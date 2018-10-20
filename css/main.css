@@ -123,15 +123,15 @@ a {
 }
 
 #item1 {
-    background: #646464
+    background: rgb(54, 90, 140);
 }
 
 #item2 {
-    background: #4286f4
+    background: #613A43;
 }
 
 #item3 {
-    background: #646464
+    background: rgb(54, 90, 140);
 }
 
 @media(max-width:992px) {
