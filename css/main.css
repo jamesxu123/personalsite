@@ -45,7 +45,7 @@ html {
 .title-text-alt {
     text-align: center;
     font-size: 7rem;
-    color: #fff;
+    color: black;
     font-family: 'IBM Plex Sans', serif
 }
 
@@ -125,7 +125,7 @@ a {
 }
 
 .item p {
-    color: white;
+    color: black;
     font-family: 'IBM Plex Sans'
 }
 
@@ -133,6 +133,10 @@ a {
     margin-bottom: 10%;
 }
 
+.item {
+    background: rgb(244,244,244);
+}
+/*
 #item1 {
     background: #3C455C;
 }
@@ -143,6 +147,11 @@ a {
 
 #item3 {
     background: #3C455C;
+}*/
+
+.btn-light {
+    background-color: #ededed;
+    border-color: #ededed;
 }
 
 @media(max-width:992px) {
