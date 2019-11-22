@@ -29,13 +29,13 @@ html {
 .title-text {
     font-size: 7rem;
     color: #a17f1a;
-    font-family: 'Avenir', serif
+    font-family: 'IBM Plex Sans', serif
 }
 
 .sub-text {
     font-size: 2em;
     color: #c8c8c8;
-    font-family: 'Avenir', sans-serif
+    font-family: 'IBM Plex Sans', sans-serif
 }
 
 .work-title {
@@ -46,7 +46,7 @@ html {
     text-align: center;
     font-size: 7rem;
     color: #fff;
-    font-family: 'Avenir', serif
+    font-family: 'IBM Plex Sans', serif
 }
 
 .hero-right {
@@ -65,7 +65,8 @@ html {
 }
 
 .feature-text {
-    font-family: 'Avenir Bold';
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
     color: black;
     font-size: 2rem
 }
@@ -77,7 +78,7 @@ a {
 .feature-left p {
     text-align: justify;
     color: black;
-    font-family: 'Avenir';
+    font-family: 'IBM Plex Sans';
     font-weight: 300;
     font-size: 1.4rem;
     padding: 10%;
@@ -125,7 +126,7 @@ a {
 
 .item p {
     color: white;
-    font-family: 'Avenir'
+    font-family: 'IBM Plex Sans'
 }
 
 #pfp {
