@@ -1,2 +1,2 @@
 # personalsite
-New, (mostly) self-coded personal website
+My personal website. https://jamesxu.ca
